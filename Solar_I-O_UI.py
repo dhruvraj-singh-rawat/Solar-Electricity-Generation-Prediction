@@ -11,8 +11,8 @@ def donothing():
     print("i am doing nothing")
 
 def OpenFile():
-    name = askopenfilename(initialdir="C:/Users/Batman/Documents/Programming/tkinter/",
-                           filetypes =(("Text File", "*.txt"),("All Files","*.*")),
+    name = askopenfilename(initialdir="C:/",
+                           filetypes =(("Excel File", "*.csv"),("All Files","*.*")),
                            title = "Choose a file."
                            )
     print (name)
