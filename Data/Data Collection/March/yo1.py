@@ -2,7 +2,7 @@ import json
 import time
 from datetime import datetime as dt
 
-mn=2
+mn=3
 dy=1
 yr=2018
 out = open('out1.csv', 'w')
@@ -49,10 +49,10 @@ for i in range(1,32):
 			minute.append(stamp.minute)
 
 			abc=(dt(yr,mn,i,6)-dt(1970,1,1)).total_seconds()
-			start_time=int(abc-19800)
+			start_time=int(abc)
 
 			abc=(dt(yr,mn,i,18)-dt(1970,1,1)).total_seconds()
-			end_time=int(abc-19800)
+			end_time=int(abc)
 
 			# print ('The start time is '+str(start_time))
 			# print ('The end time is '+str(end_time))
@@ -66,20 +66,20 @@ for i in range(1,32):
 		for row in l_Acedamic_Eco_1:
 
 			abc=(dt(yr,mn,i,6)-dt(1970,1,1)).total_seconds()
-			start_time=int(abc-19800)
+			start_time=int(abc)
 
 			abc=(dt(yr,mn,i,18)-dt(1970,1,1)).total_seconds()
-			end_time=int(abc-19800)
+			end_time=int(abc)
 
 			if row[0] in range(start_time*1000,end_time*1000):							
 				value_1.append(row[1])
 
 		for row in l_Acedamic_Eco_3:
 			abc=(dt(yr,mn,i,6)-dt(1970,1,1)).total_seconds()
-			start_time=int(abc-19800)
+			start_time=int(abc)
 
 			abc=(dt(yr,mn,i,18)-dt(1970,1,1)).total_seconds()
-			end_time=int(abc-19800)
+			end_time=int(abc)
 
 			if row[0] in range(start_time*1000,end_time*1000):
 
@@ -88,10 +88,10 @@ for i in range(1,32):
 
 		for row in l_Acedamic_Symo:
 			abc=(dt(yr,mn,i,6)-dt(1970,1,1)).total_seconds()
-			start_time=int(abc-19800)
+			start_time=int(abc)
 
 			abc=(dt(yr,mn,i,18)-dt(1970,1,1)).total_seconds()
-			end_time=int(abc-19800)
+			end_time=int(abc)
 
 			if row[0] in range(start_time*1000,end_time*1000):
 
@@ -100,10 +100,10 @@ for i in range(1,32):
 
 		for row in l_Library_Eco_1:
 			abc=(dt(yr,mn,i,6)-dt(1970,1,1)).total_seconds()
-			start_time=int(abc-19800)
+			start_time=int(abc)
 
 			abc=(dt(yr,mn,i,18)-dt(1970,1,1)).total_seconds()
-			end_time=int(abc-19800)
+			end_time=int(abc)
 
 			if row[0] in range(start_time*1000,end_time*1000):
 
@@ -112,10 +112,10 @@ for i in range(1,32):
 
 		for row in l_Library_Eco_2:
 			abc=(dt(yr,mn,i,6)-dt(1970,1,1)).total_seconds()
-			start_time=int(abc-19800)
+			start_time=int(abc)
 
 			abc=(dt(yr,mn,i,18)-dt(1970,1,1)).total_seconds()
-			end_time=int(abc-19800)
+			end_time=int(abc)
 
 			if row[0] in range(start_time*1000,end_time*1000):
 
