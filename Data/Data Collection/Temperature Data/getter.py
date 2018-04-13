@@ -1,16 +1,18 @@
 import urllib2
 import json
 
-for i in range(1,2):
+out = open('october.csv', 'w')
+out.write('day, month ,year ,hour ,minute ,temperature ,humidity ,wind_speed ,visibility,')
+out.write('\n')
 
-	year=format(2018,"02")
-	month=format(1,"02")
+for i in range(1,32):
+
+	year=format(2017,"02")
+	month=format(10,"02")
 	day=format(i,"02")
 
 
-	out = open('out1.csv', 'w')
-	out.write('day, month ,year ,minute ,hour ,temperature ,humidity ,wind_speed ,visibility,')
-	out.write('\n')
+
 
 	url='http://api.wunderground.com/api/d75d43d07ecfed90/history_'+year+month+day+'/q/zmw:00000.257.42348.json'
 
