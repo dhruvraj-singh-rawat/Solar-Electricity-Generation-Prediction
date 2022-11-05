@@ -20,7 +20,7 @@ The objective of the work is, if the weather can be predicted, then the predicti
 
 At LNMIIT, the PV Panels used were from Fronius and the image below how the admin dashboard used to looklike. 
 
-![Fronius Dashboard](/Screenshots/Dashboard.png)
+![Fronius Dashboard](https://github.com/dhruvraj-singh-rawat/Solar-Electricity-Generation-Prediction/blob/master/%20Screenshots/Dashboard.png)
 
 Since we didn't had any APIs to automatically fetch the data for each Dates from the portal, following steps were performed to manually fetch it.
 
