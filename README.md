@@ -28,7 +28,7 @@ At LNMIIT, the PV Panels used were from Fronius and the image below how the admi
 
 Since we didn't had any APIs to automatically fetch the data for each Dates from the portal, following steps were performed to manually fetch it.
 
-![Data Scraping]([/Screenshots/DataScraping.png](https://github.com/dhruvraj-singh-rawat/Solar-Electricity-Generation-Prediction/blob/master/%20Screenshots/DataScraping.png)
+![Data Scraping](https://github.com/dhruvraj-singh-rawat/Solar-Electricity-Generation-Prediction/blob/master/%20Screenshots/DataScraping.png)
 
  
 The weather data was fetched from [Weather Underground](https://www.wunderground.com/) using their DEV API. 
