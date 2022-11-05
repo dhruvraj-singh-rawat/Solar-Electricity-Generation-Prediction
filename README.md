@@ -20,11 +20,11 @@ The objective of the work is, if the weather can be predicted, then the predicti
 
 At LNMIIT, the PV Panels used were from Fronius and the image below how the admin dashboard used to looklike. 
 
-![Flowchart](/Screenshots/Dashboard.png "Fronius Dashboard")
+![Flowchart](/Screenshots/Dashboard.png ,"Fronius Dashboard")
 
 Since we didn't had any APIs to automatically fetch the data for each Dates from the portal, following steps were performed to manually fetch it.
 
-![Flowchart](/Screenshots/DataScraping.png "Data Scraping")
+![Flowchart](/Screenshots/DataScraping.png ,"Data Scraping")
 
  
 The weather data was fetched from [Weather Underground](https://www.wunderground.com/) using their DEV API. 
