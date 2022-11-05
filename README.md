@@ -7,7 +7,7 @@
 
 Electricity production through PV stations are highly variable and heavily depends upon the solar irradiance at a location and environmental factors. 
 
-The objective of the work is, if the weather can be predicted, then the prediction of solar power generation is also possible. This would lead to significant reduction in not only greenhouse emissions but also reduction in operating cost of any organization. In this work, data from LNMIIT PV station were used for analysis. 
+If the weather can be predicted, then the prediction of solar power generation is also possible. This would lead to significant reduction in not only greenhouse emissions but also reduction in operating cost of any organization. For this analysis, data from LNMIIT's PV station were used for analysis. 
 
 - Location of different PV Stations at LNMIIT 
 ![Map](https://github.com/dhruvraj-singh-rawat/Solar-Electricity-Generation-Prediction/blob/master/%20Screenshots/map.png)
@@ -22,7 +22,7 @@ The objective of the work is, if the weather can be predicted, then the predicti
 
 ## Data Acquisition 
 
-At LNMIIT, the PV Panels used were from Fronius and the image below how the admin dashboard used to looklike. 
+Fronius's PV Panels used were used at LNMIIT and the image below shows how the admin panel used to looklike.
 
 ![Fronius Dashboard](https://github.com/dhruvraj-singh-rawat/Solar-Electricity-Generation-Prediction/blob/master/%20Screenshots/Dashboard.png)
 
